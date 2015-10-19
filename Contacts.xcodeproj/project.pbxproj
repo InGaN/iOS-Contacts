@@ -14,6 +14,8 @@
 		2FC3C7311BD52A04007CA52A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC3C72F1BD52A04007CA52A /* LaunchScreen.storyboard */; };
 		2FC3C73C1BD52A04007CA52A /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC3C73B1BD52A04007CA52A /* ContactsTests.swift */; };
 		2FC3C7471BD52A04007CA52A /* ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC3C7461BD52A04007CA52A /* ContactsUITests.swift */; };
+		2FC3C7551BD52E2D007CA52A /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC3C7541BD52E2D007CA52A /* RestApiManager.swift */; settings = {ASSET_TAGS = (); }; };
+		2FC3C7571BD52FE3007CA52A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC3C7561BD52FE3007CA52A /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2FC3C7421BD52A04007CA52A /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC3C7461BD52A04007CA52A /* ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUITests.swift; sourceTree = "<group>"; };
 		2FC3C7481BD52A04007CA52A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC3C7541BD52E2D007CA52A /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		2FC3C7561BD52FE3007CA52A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		2FC3C7251BD52A04007CA52A /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				2FC3C7561BD52FE3007CA52A /* SwiftyJSON.swift */,
 				2FC3C7261BD52A04007CA52A /* AppDelegate.swift */,
 				2FC3C7281BD52A04007CA52A /* ViewController.swift */,
 				2FC3C72A1BD52A04007CA52A /* Main.storyboard */,
+				2FC3C7541BD52E2D007CA52A /* RestApiManager.swift */,
 				2FC3C72D1BD52A04007CA52A /* Assets.xcassets */,
 				2FC3C72F1BD52A04007CA52A /* LaunchScreen.storyboard */,
 				2FC3C7321BD52A04007CA52A /* Info.plist */,
@@ -257,6 +263,8 @@
 			files = (
 				2FC3C7291BD52A04007CA52A /* ViewController.swift in Sources */,
 				2FC3C7271BD52A04007CA52A /* AppDelegate.swift in Sources */,
+				2FC3C7551BD52E2D007CA52A /* RestApiManager.swift in Sources */,
+				2FC3C7571BD52FE3007CA52A /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
